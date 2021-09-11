@@ -32,11 +32,6 @@ Curios developer from Tashkent. Trying to implement people's unusual , wondrous 
 
 > 2020-2021 Letcop company as a Frontend developer
 
-## Education
-
-> 2020-2021 Proweb IT-Center (GED)
-> 2021 Udemy course (Frontend dev.)
-
 ## English
 
 English level - B1
