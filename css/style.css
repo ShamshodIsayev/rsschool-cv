@@ -28,15 +28,24 @@ body {
 .header__title{
   text-align: center;
   margin: 15px 0;
-  color: rgb(228, 0, 0);
+  color: rgb(249 249 249);
 }
 .header__description {
   text-align: center;
   color: aquamarine;
 }
-.header_flex {
-  display: flex;
-  justify-content: center;
+.img{
+  position: absolute;
+  right: 10%;
+  top: 3%;
+  width: 15%;
+  height: 37%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.header_img{
+width: 100%;
+object-fit: contain;
 }
 .main_title ,
 .contacts_title{
@@ -44,7 +53,7 @@ body {
   text-transform: uppercase;
   padding: 10px 0;
   margin-top: 15px;
-  color: white;
+  color: #ff5151;
 }
 .main__description {
   /* padding: 5px; */
@@ -95,4 +104,32 @@ body {
 }
 .logo_link{
   color:black;
+}
+
+@media (max-width: 1080px ) {
+  .img{
+    right: 3%;
+    height: 35%;
+  }
+  .main__description{
+    width: 60%;
+  }
+}
+
+@media (max-width: 807px ) {
+  .img{
+    height: 24%;
+  }
+}
+
+@media (max-width: 640px ) {
+  .img{
+    height: 18%;
+  }
+}
+
+@media (max-width: 500px ) {
+  .img{
+    height: 15%;
+  }
 }
