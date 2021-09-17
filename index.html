@@ -34,7 +34,7 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link" href="http://shamshod.epizy.com/"
-                  >Some templates
+                  >Some-Templates
                 </a>
               </li>
               <li class="nav-item">
@@ -95,16 +95,46 @@
           <p class="main__description">Intermediate level</p>
         </section>
 
+
+        <section class="main__section ">
+          <h4 class="main_title">Some code from Codewars</h4>
+            <p class="main__description">
+              <pre class="main__code">
+              <code>
+                function findOdd(A) {
+                  let count = {};
+                  for (let i = 0; i < A.length; i++) {
+                      let num = A[i];
+                      if (count[num]) {
+                          count[num] = count[num] + 1;
+                      } else {
+                          count[num] = 1;
+                      }
+                  }
+                  let result = 0;
+                  for (let number in count) {
+                      if (count[number] % 2 != 0) {
+                          result = number;
+                      }
+                  }
+                  return parseInt(result); // since object properies are strings
+              </code>
+              </pre>
+            </p>
+        </section>
+
         <section class="main__section">
           <h4 class="main_title">Experience</h4>
           <ul class="main_ul">
-            <li class="main__description">2020 - 2021 Letcop Company (Frontend dev)</li>
+            <li class="main__description">
+              2020 - 2021 Letcop Company (Frontend dev)
+            </li>
           </ul>
         </section>
 
         <section class="main__section">
           <h4 class="main_title">Some of works</h4>
-          <ul class="main_ul">
+          <ul class="works_ul">
             <li class="main__description">
               <a class="main__link" href="http://shamshod.epizy.com/"
                 >Some landing templates - shamshod.epizy.com</a
@@ -112,7 +142,8 @@
             </li>
             <li class="main__description">
               <a
-                class="main__link" href="https://shamshodisayev.github.io/Avia-Tickets/dist/index.html"
+                class="main__link"
+                href="https://shamshodisayev.github.io/Avia-Tickets/dist/index.html"
               >
                 Avia-Tickets Project
               </a>
@@ -136,11 +167,16 @@
             </li>
             <li class="contacts_li">
               <span>Telegram:</span
-              ><a class="contacts__link" href="https://t.me/alwaystrybest"> alwaystrybest</a>
+              ><a class="contacts__link" href="https://t.me/alwaystrybest">
+                alwaystrybest</a
+              >
             </li>
             <li class="contacts_li">
               <span>LinkedIn:</span
-              ><a class="contacts__link" href="https://www.linkedin.com/in/shamshod-isayev-b58391215/">
+              ><a
+                class="contacts__link"
+                href="https://www.linkedin.com/in/shamshod-isayev-b58391215/"
+              >
                 shamshod-isayev</a
               >
             </li>

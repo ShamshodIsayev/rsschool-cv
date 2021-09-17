@@ -62,6 +62,9 @@ body {
   transition: .3s;
   background: #f0f8ffb4;
 }
+.nav-link{
+  font-weight: 700;
+}
 .main_title,
 .contacts_title {
   font-size: 22px;
@@ -99,6 +102,10 @@ body {
   color: #ffffff;
   /* text-decoration: none; */
 }
+.works_ul{
+  display: block;
+  padding-left: 0;
+}
 .contacts {
   background: #808080d3;
   padding: 2px 50px 30px;
@@ -127,6 +134,13 @@ body {
 .logo_link {
   color: black;
 }
+.main__code{
+ 
+  color: #d63384;
+  padding: 15px 5px;
+  background-color: rgb(41, 41, 41);
+}
+
 
 @media (max-width: 1080px) {
   .img {
