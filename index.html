@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link href="https://css.gg/css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="">SH.I</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="http://shamshod.epizy.com/"
+                  >Some-Templates
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://shamshodisayev.github.io/Avia-Tickets/dist/index.html"
+                  >Avia-Tickets</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container header_container">
+        <h1 class="header__title">Shamshod Isayev</h1>
+        <p class="header__description">Web Frontend developer</p>
+        <div class="img">
+          <img
+            class="header_img"
+            src="img/photo_2021-05-31_10-34-18.jpg"
+            alt="header_img"
+          />
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section class="main__section" id="about">
+          <h4 class="main_title">About</h4>
+          <p class="main__description">
+            Curios developer from Tashkent. Trying to implement people's unusual
+            , wondrous wishes in Web development
+          </p>
+        </section>
+
+        <section class="main__section">
+          <h4 class="main_title">Skills</h4>
+          <ul class="main_ul">
+            <li class="main_li"><span>HTML5</span></li>
+            <li class="main_li"><span>CSS3</span></li>
+            <li class="main_li"><span>Javascript</span></li>
+            <li class="main_li"><span>jQuery</span></li>
+            <li class="main_li"><span>Vue.js</span></li>
+            <li class="main_li"><span>VueX</span></li>
+            <li class="main_li"><span>Vue-Router</span></li>
+            <li class="main_li"><span>Bootstrap</span></li>
+            <li class="main_li"><span>Vue-Bootstrap</span></li>
+            <li class="main_li"><span>Webpack</span></li>
+            <li class="main_li"><span>Wordpress(basic)</span></li>
+          </ul>
+          <p class="main__description"></p>
+        </section>
+
+        <section class="main__section">
+          <h4 class="main_title">English</h4>
+          <p class="main__description">Intermediate level</p>
+        </section>
+
+
+        <section class="main__section ">
+          <h4 class="main_title">Some code from Codewars</h4>
+            <p class="main__description">
+              <pre class="main__code">
+              <code>
+                function findOdd(A) {
+                  let count = {};
+                  for (let i = 0; i < A.length; i++) {
+                      let num = A[i];
+                      if (count[num]) {
+                          count[num] = count[num] + 1;
+                      } else {
+                          count[num] = 1;
+                      }
+                  }
+                  let result = 0;
+                  for (let number in count) {
+                      if (count[number] % 2 != 0) {
+                          result = number;
+                      }
+                  }
+                  return parseInt(result); // since object properies are strings
+              </code>
+              </pre>
+            </p>
+        </section>
+
+        <section class="main__section">
+          <h4 class="main_title">Experience</h4>
+          <ul class="main_ul">
+            <li class="main__description">
+              2020 - 2021 Letcop Company (Frontend dev)
+            </li>
+          </ul>
+        </section>
+
+        <section class="main__section">
+          <h4 class="main_title">Education</h4>
+          <ul class="main_ul">
+            <li class="main__description">
+              "Proweb - IT center": 2020-2021
+            </li>
+            <li class="main__description">
+              "Javascript" (udemy.com):  2021
+            </li>
+          </ul>
+        </section>
+
+        <section class="main__section">
+          <h4 class="main_title">Some of works</h4>
+          <ul class="works_ul">
+            <li class="main__description">
+              <a class="main__link" href="http://shamshod.epizy.com/"
+                >Some landing templates - shamshod.epizy.com</a
+              >
+            </li>
+            <li class="main__description">
+              <a
+                class="main__link"
+                href="https://shamshodisayev.github.io/Avia-Tickets/dist/index.html"
+              >
+                Avia-Tickets Project
+              </a>
+            </li>
+            <li class="main__description"><a href=""></a></li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <section class="contacts">
+        <div class="container">
+          <h4 class="contacts_title">Contacts</h4>
+          <ul class="contacts_ul">
+            <li class="contacts_li">
+              <span>Email:</span
+              ><a class="contacts__link" href="http://abdushamshod@gmail.com/">
+                abdushamshod@gmail.com</a
+              >
+            </li>
+            <li class="contacts_li">
+              <span>Telegram:</span
+              ><a class="contacts__link" href="https://t.me/alwaystrybest">
+                alwaystrybest</a
+              >
+            </li>
+            <li class="contacts_li">
+              <span>LinkedIn:</span
+              ><a
+                class="contacts__link"
+                href="https://www.linkedin.com/in/shamshod-isayev-b58391215/"
+              >
+                shamshod-isayev</a
+              >
+            </li>
+          </ul>
+          <div class="f-logo">
+            <img
+              class="footer_logo"
+              src="https://rs.school/images/rs_school_js.svg"
+              alt=""
+            />
+            <a class="logo_link" href="https://rs.school/js/"
+              >https://rs.school/js/</a
+            >
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
